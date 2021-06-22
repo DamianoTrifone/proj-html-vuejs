@@ -81,6 +81,31 @@
                 <a href="#" class="giallo">Understanding community complexites</a>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, obcaecati.</p>
             </div>
+            <div class="articles_dx col-lg-6">
+                <div class="single_article">
+                    <img src="../assets/photo-1444664597500-035db93e2323-177x142.jpg" alt="Popolazione locale">
+                    <a href="#" class="giallo">The human story of uniqueness</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, aperiam.</p>
+                </div>
+                <div class="single_article">
+                    <img src="../assets/photo-1447430617419-95715602278e-177x142.jpg" alt="Popolazione locale">
+                    <a href="#" class="giallo">Sustainable trade tactics</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, dolores.</p>
+                </div>
+                <div class="single_article">
+                    <img src="../assets/photo-1460230525622-630fe3294cd7-177x142.jpg" alt="Popolazione locale">
+                    <a href="#" class="giallo">Farmers making a difference</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, reprehenderit!</p>
+                </div>
+                <div class="single_article">
+                    <img src="../assets/photo-1460600421604-5e138c208b9c-177x142.jpg" alt="Popolazione locale">
+                    <a href="#" class="giallo">Meeting remote tribes in Peru</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, non!</p>
+                </div>
+            </div>
+            <div id="red_articles">
+                <a href="#">View all our articles</a>
+            </div>
         </div>
     </main>
 </template>
@@ -292,13 +317,23 @@ export default {
 
     .articles_sx{
         padding: 10px;
+        float: left;
+    }
+
+    .articles_dx{
+        float: right;
+    }
+    
+
+    .articles_dx img{
+        float: left;
     }
 
     .articles_sx > img{
         width: 550px;
     }
 
-    .articles_sx a{
+    .articles a{
         display: inline-block;
         text-decoration: none;
         color: #FCD66C;
@@ -306,4 +341,33 @@ export default {
         margin-right: 35px;
         padding: 5px;
     }
+
+    .single_article{
+        display: flex;
+        float: right;
+    }
+
+    .single_article img{
+        // float: left;
+        padding: 15px;
+        width: 250px;
+    }
+
+    #red_articles{
+        position: absolute;
+        top: 930px;
+        height: 50px;
+        width: 80%;
+        background-color: #EA6862;
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+    #red_articles a{
+        color: white;
+        text-transform: uppercase;
+        margin-top: 12px;
+    }
+    
 </style>
