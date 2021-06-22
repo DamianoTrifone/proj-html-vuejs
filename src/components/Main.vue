@@ -60,6 +60,15 @@
                 </div>
             </div>  
         </div>
+        <div class="causes">
+            <h2>Recent causes</h2>
+            <div id="separatore_causes"></div>
+            <p>We run projects in over 30 countries in 5 continents</p>
+            <img src="../assets/avada-charity-fair-trade-featured-600x450.jpg" alt="Popolazione locale">
+            <img src="../assets/avada-charity-shelter-featured-600x450.jpg" alt="Popolazione locale">
+            <img src="../assets/avada-charity-farming-featured-600x450.jpg" alt="Popolazione locale">
+            <img src="../assets/avada-charity-vaccines-featured-600x450.jpg" alt="Popolazione locale">
+        </div>
     </main>
 </template>
 
@@ -192,7 +201,37 @@ export default {
         padding-top: 5px;
     }
 
-    .cards a{
+    .causes{
+        height: 300px;
+        width: 100%;
+        position: absolute;
+        top: 1690px;
+        text-align: center;
+    }
 
+    .causes h2{
+        padding: 10px;
+        font-weight: 200;
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+
+    .causes p{
+        padding: 10px;
+        font-weight: 200;
+        font-size: 25px;
+    }
+
+    #separatore_causes{
+        height: 1px;
+        width: 150px;
+        color: #FCD66C;
+        border: 4px solid #FCD66C;
+        margin-left: 685px;
+    }
+
+    .causes img{
+        width: 270px;
+        padding: 15px;
     }
 </style>
