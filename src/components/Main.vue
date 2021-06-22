@@ -72,6 +72,16 @@
         <div class="red_block">
             <a href="#">View all our causes</a>
         </div>
+        <div class="articles">
+             <h2>Latest articles</h2>
+             <div id="separatore_causes"></div>
+            <p>Together we make all the difference</p>
+            <div class="articles_sx col-lg-6">
+                <img src="../assets/photo-1444213007800-cff19e1677ac-600x450.jpg" alt="Convivenza tra uomo e animali">
+                <a href="#" class="giallo">Understanding community complexites</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, obcaecati.</p>
+            </div>
+        </div>
     </main>
 </template>
 
@@ -250,7 +260,7 @@ export default {
         color: white;
         display: flex;
         justify-content: center;
-        margin-top: 50px;
+        margin-top: 35px;
         text-transform: uppercase;
         text-decoration: none;
         font-size: 20px;
@@ -258,5 +268,42 @@ export default {
         &:hover{
             color: #FCD66C;
         }
+    }
+
+    .articles{
+        position: absolute;
+        width: 100%;
+        top: 2210px;
+        text-align: center;
+    }
+
+    .articles h2{
+        padding: 10px;
+        font-weight: 200;
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+
+    .articles > p{
+        padding: 10px;
+        font-weight: 200;
+        font-size: 25px;
+    }
+
+    .articles_sx{
+        padding: 10px;
+    }
+
+    .articles_sx > img{
+        width: 550px;
+    }
+
+    .articles_sx a{
+        display: inline-block;
+        text-decoration: none;
+        color: #FCD66C;
+        font-size: 20px;
+        margin-right: 35px;
+        padding: 5px;
     }
 </style>
