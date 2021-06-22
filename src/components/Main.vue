@@ -367,7 +367,12 @@ export default {
     #red_articles a{
         color: white;
         text-transform: uppercase;
-        margin-top: 12px;
+        margin-top: 6px;
     }
-    
+
+    .articles::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
 </style>
