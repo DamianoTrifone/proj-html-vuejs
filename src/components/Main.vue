@@ -69,6 +69,9 @@
             <img src="../assets/avada-charity-farming-featured-600x450.jpg" alt="Popolazione locale">
             <img src="../assets/avada-charity-vaccines-featured-600x450.jpg" alt="Popolazione locale">
         </div>
+        <div class="red_block">
+            <a href="#">View all our causes</a>
+        </div>
     </main>
 </template>
 
@@ -78,7 +81,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
     .main{
         position: relative;
     }
@@ -233,5 +236,27 @@ export default {
     .causes img{
         width: 270px;
         padding: 15px;
+    }
+
+    .red_block{
+        position: absolute;
+        top: 2100px;
+        height: 100px;
+        width: 100%;
+        background-color: #EA6862;
+    }
+
+    .red_block a{
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 20px;
+
+        &:hover{
+            color: #FCD66C;
+        }
     }
 </style>
