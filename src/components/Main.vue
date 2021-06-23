@@ -354,7 +354,6 @@ export default {
     }
 
     .single_article img{
-        // float: left;
         padding: 15px;
         width: 250px;
     }
@@ -374,6 +373,10 @@ export default {
         color: white;
         text-transform: uppercase;
         margin-top: 6px;
+    }
+
+    #red_articles a:hover{
+        color: #FCD66C;
     }
 
     .articles::after{
