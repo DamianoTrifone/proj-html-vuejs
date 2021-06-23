@@ -342,6 +342,12 @@ export default {
         padding: 5px;
     }
 
+    .articles a:hover{
+        color: #FCD66C;
+        border: 1 px solid white;
+        padding: 5px 12px;
+    }
+
     .single_article{
         display: flex;
         float: right;

@@ -21,6 +21,7 @@
 export default {
     name:"header"
 }
+
 </script>
 
 <style lang="scss">
